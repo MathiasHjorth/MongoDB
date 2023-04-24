@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "644634c51f90d2d5d2980a6d"
+  },
+  "title": "Tacos",
+  "desc": "Yummie tacos",
+  "cook_time": 20
+},{
+  "_id": {
+    "$oid": "644636081f90d2d5d2980a6e"
+  },
+  "title": "Dos Tacos",
+  "desc": "Yummie tacos",
+  "cook_time": 20
+}]
