@@ -1,0 +1,29 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    title: 'orders validation',
+    required: [
+      'user'
+    ],
+    properties: {
+      user: {
+        bsonType: 'object',
+        description: 'orders must include a user object, consisting of an _id and email',
+        required: [
+          '_id',
+          'email'
+        ],
+        properties: {
+          _id: {
+            bsonType: 'objectId',
+            description: '_id must be a an objectId'
+          },
+          email: {
+            pattern: '@',
+            description: 'Email must contain a @'
+          }
+        }
+      }
+    }
+  }
+}

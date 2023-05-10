@@ -1,0 +1,17 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    title: 'Products validation',
+    required: [
+      'name'
+    ],
+    properties: {
+      name: {
+        bsonType: 'string',
+        title: 'Name field validation',
+        description: 'The product must have a name',
+        minLength: 1
+      }
+    }
+  }
+}
